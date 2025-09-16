@@ -37,9 +37,10 @@
             // lbDefinirRango
             // 
             this.lbDefinirRango.AutoSize = true;
+            this.lbDefinirRango.BackColor = System.Drawing.Color.Transparent;
             this.lbDefinirRango.Font = new System.Drawing.Font("Franklin Gothic Book", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbDefinirRango.ForeColor = System.Drawing.Color.SeaShell;
-            this.lbDefinirRango.Location = new System.Drawing.Point(28, 36);
+            this.lbDefinirRango.Location = new System.Drawing.Point(28, 42);
             this.lbDefinirRango.Name = "lbDefinirRango";
             this.lbDefinirRango.Size = new System.Drawing.Size(409, 25);
             this.lbDefinirRango.TabIndex = 0;
@@ -87,6 +88,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.BackgroundImage = global::JeremyR_JosephG_DanielC_Lab3.Properties.Resources.Opeth_wallpaperB;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btProb3);
             this.Controls.Add(this.lbPalindromos);
